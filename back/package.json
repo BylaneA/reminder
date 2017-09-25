@@ -1,0 +1,21 @@
+{
+  "name": "server_reminder",
+  "version": "1.0.0",
+  "description": "server and dtb for reminder app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  	"express" : "*",
+  	"mongoose": "*",
+  	"body-parser": "*",
+  	"morgan": "*",
+  	"nodemon": "*",
+  	"passport": "*",
+  	"bcrypt": "*",
+  	"jsonwebtoken": "*"
+  },
+  "author": "nils",
+  "license": "ISC"
+}
