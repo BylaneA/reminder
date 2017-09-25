@@ -1,3 +1,64 @@
+/*----------- Colors------------- */
+$blackColor: #333;
+$redColor: #F55C54;
+$whiteColor: #F5F5F5;
+
+/*------------ Fonts-------------- */
+@font-face {
+	font-family: 'Aldrich';
+	src: url("../fonts/Aldrich/Aldrich-Regular.ttf");
+}
+
+/*@font-face {
+    font-family: "FontAwesome";
+    src: url("../node_modules/font-awesome/fonts/FontAwesome.otf");
+}*/
+
+$principalFont: 'Aldrich', sans-serif;
+
 body {
-	background-color: red;
+	margin: 10px;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+}
+
+li {
+	flex-direction: row;
+}
+/*------------ Header-------------- */
+header {
+	display: inline-flex;
+	background-color: $blackColor;
+	color: $redColor;
+	height: 80px;
+	font-family: $principalFont;
+	font-size: 36px;
+	width:100%;
+	 
+}
+
+header img {
+	width: 329px;
+	vertical-align: middle;
+}
+
+header a {
+	text-decoration: none;
+	color: $redColor;
+}
+
+/*------------ Footer-------------- */
+footer {
+	background-color: $blackColor;
+	height: 100px;
+	color: $whiteColor;
+	width: 100%;
+	text-align: center;
+}
+
+footer i {
+	color: $redColor;
 }

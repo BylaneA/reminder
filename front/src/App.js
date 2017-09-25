@@ -1,14 +1,27 @@
 import React, { Component } from 'react';
-import './assets/css/style.css';
 
+// components
+import Header from './components/headerComponent/header';
+import Footer from './components/footerComponent/footer';
+import Homepage from './components/pages/homePage';
+
+// includes
+import './assets/css/style.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      
+        
+        <Header />
+
+        <Homepage />
+
+        <Footer />
 
       </div>
+        
+      
     );
   }
 }

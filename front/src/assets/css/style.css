@@ -1,0 +1,48 @@
+/*----------- Colors------------- */
+/*------------ Fonts-------------- */
+@font-face {
+  font-family: 'Aldrich';
+  src: url("../fonts/Aldrich/Aldrich-Regular.ttf"); }
+
+/*@font-face {
+    font-family: "FontAwesome";
+    src: url("../node_modules/font-awesome/fonts/FontAwesome.otf");
+}*/
+body {
+  margin: 10px; }
+
+ul {
+  list-style: none;
+  display: flex; }
+
+li {
+  flex-direction: row; }
+
+/*------------ Header-------------- */
+header {
+  display: inline-flex;
+  background-color: #333;
+  color: #F55C54;
+  height: 80px;
+  font-family: "Aldrich", sans-serif;
+  font-size: 36px;
+  width: 100%; }
+
+header img {
+  width: 329px;
+  vertical-align: middle; }
+
+header a {
+  text-decoration: none;
+  color: #F55C54; }
+
+/*------------ Footer-------------- */
+footer {
+  background-color: #333;
+  height: 100px;
+  color: #F5F5F5;
+  width: 100%;
+  text-align: center; }
+
+footer i {
+  color: #F55C54; }
