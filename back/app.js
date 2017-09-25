@@ -1,6 +1,6 @@
-const express = require("express");
-const morgan = require("morgan");
-const bodyParser = require("body-parser");
+const express = require('express');
+const morgan = require('morgan');
+const bodyParser = require('body-parser');
 
 const app =express();
 
@@ -11,5 +11,5 @@ const app =express();
 //Start the server
 
 const port = process.env.PORT || 3000;
-app.listen(port)
-console.log("Le serveur marche, t'entend!")
+app.listen(port);
+console.log('Le serveur marche, t\'entend!');
