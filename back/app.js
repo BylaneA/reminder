@@ -12,6 +12,7 @@ app.use(bodyParser.urlencoded({extended : true}));
 app.use(bodyParser.json());
 
 //Connection à la base de données
+mongoose.connect('mongodb://localhost/reminder');
 
 //Routes
 
