@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 mongoose.connect('mongodb://localhost/reminder');
 
 //Routes
+app.use('/users', require('./routes/users'))
 
 //Start the server
 

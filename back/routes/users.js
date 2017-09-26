@@ -1,8 +1,16 @@
 const express = require('express');
-const router = express.Router;
+const router = require('express-promise-router')();
 
 const UsersController = require('../controllers/users');
 
 
-router.route('/signup')
-	.post()
+router.route('/user/add')
+	.post(UsersController.addUser);
+
+router.route('/login')
+	.post(UsersController.login);
+
+router.route('secret')
+	.get(UsersController.secret);
+
+module.exports = router;
