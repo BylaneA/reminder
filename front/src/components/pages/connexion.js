@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 
-class Homepage extends Component {
+
+class Connexion extends Component {
   render() {
     return (
 
       <div className="Container-fluid">
 
-      	<div>Home Page</div>
-    
+      	<div>Page connexion</div>
+
       </div>
-              
+        
+      
     );
   }
 }
 
-export default Homepage;
+export default Connexion;
