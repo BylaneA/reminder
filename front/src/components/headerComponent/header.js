@@ -1,31 +1,38 @@
 
 import React, { Component } from 'react';
 import logo from './logotype.svg';
+import Connexion from '../../components/pages/connexion';
+import Inscription from '../../components/pages/inscription';
+import Homepage from '../../components/pages/homePage';
+
+//Router
+import { BrowserRouter , Switch, Route, Link } from 'react-router-dom';
+
+
 class Header extends Component {
   render() {
     return (
-      <header>
+      <BrowserRouter>
+        <div>
+          <header>
+          <div>
+            <Link to={'/'}><img src={logo} className="App-logo" alt="logo" /></Link>
+          </div>
+          <div>
+            <Link to={'/inscription'}><button className="btn">Inscription</button></Link>
+            <Link to={'/connexion'}><button className="btn">Connexion</button></Link>
+          </div>
+          </header>
+          <Switch>
+              <Route exact={true} path='/' component={Homepage} />
+              <Route path='/inscription' component={Inscription} />
+              <Route path='/connexion' component={Connexion} />
+          </Switch>
+          </div>
+        </BrowserRouter>
 
-        <div className="logo">
-          <img src={logo} alt="logo" />
-        </div>
-
-        <nav>
-        	<ul>
-        		<li>
-        			<a href="#">Inscription</a>
-        		</li>
-        		<li>
-        			<a href="#">Connexion</a>
-        		</li>
-        	</ul>
-        </nav>
-
-      </header>
-        
-      
-    );
-  }
+        );
+    }
 }
 
 export default Header;

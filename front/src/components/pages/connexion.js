@@ -7,7 +7,7 @@ class Connexion extends Component {
 
       <div className="Container-fluid">
 
-        <div>Page connexion</div>
+      	<div>Page connexion</div>
 
       </div>
         

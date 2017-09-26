@@ -149,6 +149,8 @@ footer i {
   border-radius: 50%;
   border: 1px solid #F5F5F5;
   padding: 10px; }
+footer i {
+  color: #F55C54; }
 
 footer li {
   margin-right: 20px; }
