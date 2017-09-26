@@ -1,15 +1,21 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+
+const port = process.env.PORT || 3000;
 
 const app =express();
 
 //Middlewares
+app.use(bodyParser.urlencoded({extended : true}));
+app.use(bodyParser.json());
+
+//Connection à la base de données
 
 //Routes
 
 //Start the server
 
-const port = process.env.PORT || 3000;
 app.listen(port);
 console.log('Le serveur marche, t\'entend!');
