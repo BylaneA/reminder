@@ -9,12 +9,21 @@ $whiteColor: #F5F5F5;
 	src: url("../fonts/Aldrich/Aldrich-Regular.ttf");
 }
 
-/*@font-face {
-    font-family: "FontAwesome";
-    src: url("../node_modules/font-awesome/fonts/FontAwesome.otf");
-}*/
+@font-face {
+	font-family: 'Roboto';
+	src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
 
 $principalFont: 'Aldrich', sans-serif;
+
+h1 {
+	font-family: $principalFont;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	color :$redColor;
+	text-align: center;
+	font-size: 24px;
+}
 
 body {
 	margin: 10px;
@@ -33,17 +42,158 @@ header {
 	display: inline-flex;
 	background-color: $blackColor;
 	color: $redColor;
-	height: 80px;
 	font-family: $principalFont;
-	font-size: 36px;
+	font-size: 20px;
 	width:100%;
-	 
+	max-height: 50px;
 }
 
 header img {
-	width: 329px;
-	vertical-align: middle;
+	max-width: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
+
+header a {
+	text-decoration: none;
+	color: $redColor;
+}
+
+nav {
+	margin-left: 700px;
+}
+nav li {
+	margin-right: 20px;
+}
+/*------------ Main (Home page)-------------- */
+.Container-Home {
+	width: 100%;
+	display: flex;
+}
+
+.Concept {
+	width: 483px;
+	height: 340px;
+	background-color: $blackColor;
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 200px;
+}
+
+.Concept p {
+	color: $whiteColor;
+	margin: 0px 20px ;
+}
+
+.redTriangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 509px 229px 0 229px;
+	border-color: $redColor transparent transparent transparent;
+}
+
+.blackTriangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 267.5px 595px 267.5px;
+	border-color: transparent transparent $blackColor transparent;
+}
+
+/*------------ Main (Inscription)-------------- */
+.Container-Inscription {
+	width: 100%;
+	display: flex;
+}
+
+.Container-Inscription {
+	font-family: $principalFont;
+}
+
+.labels {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 210px;
+}
+
+.inputs {
+	width: 400px
+}
+
+.formInscription {
+	display: flex;
+}
+
+label {
+	color: $whiteColor;
+	font-size: 16px;
+	margin-top: 27px;
+}
+
+input {
+	border: none;
+	margin-top: 25px;
+}
+
+
+button {
+	font-family: $principalFont;
+	background-color: $redColor;
+	color: $whiteColor;
+	border: none;
+	margin-top: 50px;
+	padding: 10px;
+}
+
+/*------------ Footer-------------- */
+footer {
+	background-color: $blackColor;
+	color: $whiteColor;
+	width: 100%;
+	display: flex;
+	height: 70px;
+}
+
+.footer {
+	flex-direction: row;
+	border: 1px solid $redColor;
+}
+
+footer p {
+	text-align: center;
+	list-style: none;
+	flex-direction: row;
+	margin-top: -40px;
+}
+
+footer ul {
+	flex-direction: row;
+	margin-top: 15px;
+}
+footer i {
+	color: $blackColor;
+	justify-content: space-between;
+	background: $whiteColor;
+	border-radius: 50%;
+	border: 1px solid $whiteColor;
+	padding: 10px;
+}
+
+footer li {
+	margin-right: 20px;
+}
+.socialNetwork {
+	margin-left: 900px;
+	font-size: 24px;
+}
+
+footer a {
+	color: $whiteColor;
+}
+
 
 header a {
 	text-decoration: none;
