@@ -39,7 +39,8 @@ li {
 }
 /*------------ Header-------------- */
 header {
-	display: inline-flex;
+	display: flex;
+	justify-content: space-between;
 	background-color: $blackColor;
 	color: $redColor;
 	font-family: $principalFont;
@@ -73,7 +74,6 @@ nav li {
 
 .Concept {
 	width: 483px;
-	height: 340px;
 	background-color: $blackColor;
 	padding: 10px;
 	margin-top: 50px;
@@ -83,7 +83,7 @@ nav li {
 
 .Concept p {
 	color: $whiteColor;
-	margin: 0px 20px ;
+	padding: 2em;
 }
 
 .redTriangle {
@@ -141,11 +141,14 @@ input {
 
 button {
 	font-family: $principalFont;
-	background-color: $redColor;
+	background-color: $blackColor;
 	color: $whiteColor;
 	border: none;
-	margin-top: 50px;
-	padding: 10px;
+	padding: 1em;
+}
+button:hover{
+	color: $redColor;
+	cursor: pointer;
 }
 
 /*------------ Footer-------------- */
