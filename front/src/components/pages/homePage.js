@@ -4,12 +4,12 @@ class Homepage extends Component {
   render() {
     return (
       <div className="container-home">
-        <div className="triangles">
-        <div className="redTriangle"></div>
-       </div>
-        <div className="concept">
-          <h1>Notre concept</h1>
-          <p>Vide, quantum, inquam, fallare, Torquate. oratio me istius philosophi non 
+      	<div className="triangles">
+	      <div className="redTriangle"></div>
+	     </div>
+      	<div className="concept">
+      		<h1>Notre concept</h1>
+      		<p>Vide, quantum, inquam, fallare, Torquate. oratio me istius philosophi non 
 offendit; nam et complectitur verbis, quod vult, et dicit plane, quod 
 intellegam; et tamen ego a philosopho, si afferat eloquentiam, non 
 asperner, si non habeat, non admodum flagitem. re mihi non aeque 
@@ -23,8 +23,8 @@ primigenia tamen nomina non amittunt, quae eis Assyria lingua
 institutores veteres indiderunt.
 
 </p>
-          
-        </div>
+      		
+      	</div>
 
       
       </div>

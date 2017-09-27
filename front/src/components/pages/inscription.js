@@ -4,13 +4,13 @@ class Inscription extends Component {
   render() {
     return (
       <div className="container-register">
-        <div className="triangles">
-        <div className="redTriangle"></div>
-       </div>
-        <div className="concept">
-          <h1>Inscription</h1>
+      	<div className="triangles">
+	      <div className="redTriangle"></div>
+	     </div>
+      	<div className="concept">
+      		<h1>Inscription</h1>
           <div className="form-register">
-            <div className="labels-register">
+        		<div className="labels-register">
               <label for="userName">Nom d'utilisateur :</label>
               <label for="email">E-mail :</label>
               <label for="password">Mot de passe :</label>
@@ -24,10 +24,10 @@ class Inscription extends Component {
           </div>
 
           <button className="button-register">S'inscrire</button>
-          
+      		
           
 
-        </div>
+      	</div>
 
       
       </div>

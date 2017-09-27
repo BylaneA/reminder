@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import logo from './logotype.svg';
 import Connexion from '../../components/pages/connexion';
@@ -38,4 +39,3 @@ class Header extends Component {
 }
 
 export default Header;
-

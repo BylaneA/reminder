@@ -131,12 +131,12 @@ header a {
 .btn-register, .btn-login {
   font-family: "Aldrich", sans-serif;
   background-color: $blackColor;
-  color: $redColor;
+  color: $whiteColor;
   border: none;
   padding: 1em; }
 
 .btn-register:hover, .btn-login:hover {
-	color: $whiteColor;
+	color: $redColor;
 	cursor: pointer;
 }
 
@@ -156,20 +156,11 @@ header a {
 .link-forgot a {
   color: $greyColor; 
 }
-/*------------ Main Connexion-------------- */
+/*------------ Main Connexion)-------------- */
 .container-connexion {
 	width: 100%;
 	display: flex;
 	font-family: $principalFont;
-}
-/*------------ Main ConnectedUser-------------- */
-.container-connectedUser {
-	color: $whiteColor;
-	width: 100%;
-	display: flex;
-	font-family: $principalFont;
-
-
 }
 
 /*------------ Footer-------------- */
