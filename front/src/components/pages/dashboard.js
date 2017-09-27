@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import AddPost from '../../components/pages/addPost';
 
 //Router
-
+import { Route, Link } from 'react-router-dom';
 
 
 class Dashboard extends Component {
@@ -10,7 +11,9 @@ class Dashboard extends Component {
 
       <div className="mainDashboard">
       	<div className="post-it">
-      		<i className="fa fa-plus"></i>
+      		<Link to="/addPost">
+      			<i className="fa fa-plus"></i>
+      		</Link>
       	</div>
 
 		<div className="triangles">
