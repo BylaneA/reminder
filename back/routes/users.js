@@ -1,7 +1,7 @@
 const express = require('express');
 const router = require('express-promise-router')();
 
-const {validateBody, schemas} = require('../schemas/users')
+const {validateBody, schemas} = require('../controll/users')
 const UsersController = require('../controllers/users');
 
 
