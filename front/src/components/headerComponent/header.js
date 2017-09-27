@@ -5,6 +5,7 @@ import Connexion from '../../components/pages/connexion';
 import Inscription from '../../components/pages/inscription';
 import Homepage from '../../components/pages/homePage';
 import Dashboard from '../../components/pages/dashboard';
+import AddPost from '../../components/pages/addPost';
 
 //Router
 import { BrowserRouter , Switch, Route, Link } from 'react-router-dom';
@@ -26,6 +27,7 @@ class Header extends Component {
             <Link to={'/inscription'}><button className="btn-register">Inscription</button></Link>
             <Link to={'/connexion'}><button className="btn-login">Connexion</button></Link>
             <Link to={'/dashboard'}><button className="btn-login">Dashboard</button></Link>
+            <Link to={'/addPost'}><button className="btn-login">AddPost</button></Link>
           </div>
           </header>
           <Switch>
@@ -33,6 +35,7 @@ class Header extends Component {
               <Route path='/inscription' component={Inscription} />
               <Route path='/connexion' component={Connexion} />
               <Route path='/dashboard' component={Dashboard} />
+              <Route path='/addPost' component={AddPost} />
           </Switch>
           </div>
         </BrowserRouter>

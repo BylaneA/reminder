@@ -94,25 +94,28 @@ header a {
 	border-color: transparent transparent $blackColor transparent;
 }
 
-/*------------ Main (Inscription)-------------- */
+/*------------ Main Inscription et Connexion-------------- */
 .container-register, .container-connexion {
 	width: 100%;
 	display: flex;
 	font-family: $principalFont;
 }
 
-.labels-register, .labels-login {
+.labels-register, .labels-login, .labels-addPost {
 	margin-left: 2em;
 	display: flex;
 	flex-direction: column;
 	width: 14em;
+}
+
+.labels-register, .labels-login {
 	color: $whiteColor;
 }
 
-.inputs-login, .inputs-register {
+.inputs-login, .inputs-register, .inputs-addPost {
   width: 22em; }
 
-.form-register {
+.form-register, .formPost {
   display: flex; }
 
 .labels-register  label {
@@ -181,6 +184,33 @@ header a {
 	border-radius: 50%;
 	border: 1px solid $redColor;
 	padding: 0.5em;
+}
+
+/*------------ Main AddPost-------------- */
+.contain-addPost {
+	width: 24em;
+	height: 20em;
+	background-color: $greyColor;
+	margin-top: 5em;
+}
+
+.labels-addPost {
+	color: $blackColor;
+	font-family: $principalFont;
+}
+
+.labels-addPost label {
+	margin-top: 1em;
+}
+.inputs-addPost input {
+	margin-top: 1em;
+	border: none;
+	width: 12.6em;
+}
+
+.inputs-addPost textarea {
+	margin-top: 1.2em;
+	border: none;
 }
 
 /*------------ Footer-------------- */
