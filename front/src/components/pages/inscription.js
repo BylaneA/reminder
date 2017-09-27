@@ -5,8 +5,9 @@ class Inscription extends Component {
     return (
       <div className="container-register">
       	<div className="triangles">
-	      <div className="redTriangle"></div>
-	     </div>
+          <div className="redTriangle">
+          </div>
+        </div>
       	<div className="concept">
       		<h1>Inscription</h1>
           <div className="form-register">

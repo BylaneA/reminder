@@ -10,11 +10,11 @@ class Footer extends Component {
 
         <div>
       		<ul className="socialNetwork">
-      			<li><i className="fa fa-facebook"></i></li>
-      			<li><i className="fa fa-linkedin"></i></li>
-      			<li><i className="fa fa-instagram"></i></li>
-      			<li><i className="fa fa-twitter"></i></li>
-      			<li><i className="fa fa-google-plus"></i></li>
+      			<li><a href="https://www.facebook.com/"><i className="fa fa-facebook"></i></a></li>
+      			<li><a href="https://www.linkedin.com/"><i className="fa fa-linkedin"></i></a></li>
+      			<li><a href="https://www.instagram.com/"><i className="fa fa-instagram"></i></a></li>
+      			<li><a href="https://www.twitter.com/"><i className="fa fa-twitter"></i></a></li>
+      			<li><a href="https://www.plus.google.com/"><i className="fa fa-google-plus"></i></a></li>
       		</ul>
           <p><a href="#">Mentions légales</a></p>
         </div>

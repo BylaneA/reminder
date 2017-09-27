@@ -76,7 +76,7 @@ header a {
   border-color: transparent transparent #333 transparent; }
 
 /*------------ Main (Inscription)-------------- */
-.container-register {
+.container-register, .container-connexion {
   width: 100%;
   display: flex;
   font-family: "Aldrich", sans-serif; }
@@ -128,13 +128,30 @@ header a {
   margin: 0.7em 0em 0em 14em; }
 
 .link-forgot a {
-  color: #BDBDBD; }
+  color: #E0E0E0; }
 
-/*------------ Main Connexion)-------------- */
-.container-connexion {
+/*------------ Main Dashboard-------------- */
+.mainDashboard {
   width: 100%;
   display: flex;
-  font-family: "Aldrich", sans-serif; }
+  justify-content: space-between; }
+
+.post-it {
+  width: 17em;
+  height: 14em;
+  background-color: #E0E0E0;
+  margin-top: 2em;
+  margin-left: 2em;
+  line-height: 14em;
+  text-align: center; }
+
+.post-it i {
+  color: #F5F5F5;
+  font-size: 48px;
+  background: #F55C54;
+  border-radius: 50%;
+  border: 1px solid #F55C54;
+  padding: 0.5em; }
 
 /*------------ Footer-------------- */
 footer {
@@ -158,6 +175,11 @@ footer i {
   border-radius: 50%;
   border: 1px solid #F5F5F5;
   padding: 0.5em; }
+
+footer i:hover {
+  color: #F5F5F5;
+  cursor: pointer;
+  background-color: #F55C54; }
 
 footer li {
   margin-right: 1em; }

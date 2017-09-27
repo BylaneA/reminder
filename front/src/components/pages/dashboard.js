@@ -9,8 +9,14 @@ class Dashboard extends Component {
     return (
 
       <div className="mainDashboard">
-     
-      Test
+      	<div className="post-it">
+      		<i className="fa fa-plus"></i>
+      	</div>
+
+		<div className="triangles">
+			<div className="redTriangle">
+			</div>
+        </div>
 
       </div>
         

@@ -2,7 +2,7 @@
 $blackColor: #333;
 $redColor: #F55C54;
 $whiteColor: #F5F5F5;
-$greyColor: #BDBDBD;
+$greyColor: #E0E0E0;
 
 /*------------ Fonts-------------- */
 @font-face {
@@ -95,7 +95,7 @@ header a {
 }
 
 /*------------ Main (Inscription)-------------- */
-.container-register {
+.container-register, .container-connexion {
 	width: 100%;
 	display: flex;
 	font-family: $principalFont;
@@ -156,11 +156,31 @@ header a {
 .link-forgot a {
   color: $greyColor; 
 }
-/*------------ Main Connexion)-------------- */
-.container-connexion {
+
+/*------------ Main Dashboard-------------- */
+.mainDashboard {
 	width: 100%;
 	display: flex;
-	font-family: $principalFont;
+	justify-content: space-between;
+}
+
+.post-it {
+	width: 17em;
+	height: 14em;
+	background-color: $greyColor;
+	margin-top: 2em;
+	margin-left: 2em;
+	line-height: 14em;
+	text-align: center;
+}
+
+.post-it i {
+	color: $whiteColor;
+	font-size: 48px;
+	background: $redColor;
+	border-radius: 50%;
+	border: 1px solid $redColor;
+	padding: 0.5em;
 }
 
 /*------------ Footer-------------- */
@@ -188,6 +208,12 @@ footer i {
 	border-radius: 50%;
 	border: 1px solid $whiteColor;
 	padding: 0.5em;
+}
+
+footer i:hover {
+	color: $whiteColor;
+	cursor: pointer;
+	background-color: $redColor;
 }
 
 footer li {
