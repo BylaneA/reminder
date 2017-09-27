@@ -131,12 +131,12 @@ header a {
 .btn-register, .btn-login {
   font-family: "Aldrich", sans-serif;
   background-color: $blackColor;
-  color: $whiteColor;
+  color: $redColor;
   border: none;
   padding: 1em; }
 
 .btn-register:hover, .btn-login:hover {
-	color: $redColor;
+	color: $whiteColor;
 	cursor: pointer;
 }
 
@@ -169,10 +169,6 @@ footer {
 	color: $whiteColor;
 	width: 100%;
 	display: flex;
-}
-
-.footer {
-	flex-direction: row;
 }
 
 footer p {
