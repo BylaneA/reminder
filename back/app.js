@@ -3,11 +3,12 @@ const mongoose = require('mongoose');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
-const app =express();
+const app = express();
 
 //Middlewares
+app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended : true}));
 app.use(bodyParser.json());
 
@@ -15,7 +16,7 @@ app.use(bodyParser.json());
 mongoose.connect('mongodb://localhost/reminder');
 
 //Routes
-app.use('/users', require('./routes/users'))
+app.use('/users', require('./routes/users'));
 
 //Start the server
 

@@ -15,7 +15,8 @@
   	"nodemon": "*",
   	"passport": "*",
   	"bcrypt": "*",
-  	"jsonwebtoken": "*"
+  	"jsonwebtoken": "*",
+    "joi" : "*"
   },
   "author": "nils",
   "license": "ISC"

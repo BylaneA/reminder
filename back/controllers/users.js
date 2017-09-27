@@ -1,6 +1,6 @@
 module.exports = {
-	addUser: (req, res, next) => {
-		console.log('addUser is ok');
+	signup: (req, res, next) => {
+		console.log('signup is ok');
 	},
 
 	login: (req, res, next) => {
@@ -10,4 +10,5 @@ module.exports = {
 	secret: (req, res, next) => {
 		console.log('secret is ok');
 	}
+
 }

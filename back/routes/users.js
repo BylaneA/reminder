@@ -1,11 +1,12 @@
 const express = require('express');
 const router = require('express-promise-router')();
 
+const {validateBody, schemas} = require('../schemas/users')
 const UsersController = require('../controllers/users');
 
 
-router.route('/user/add')
-	.post(UsersController.addUser);
+router.route('/signup')
+	.post(validateBody(schemas. authschema), UsersController.signup);
 
 router.route('/login')
 	.post(UsersController.login);
