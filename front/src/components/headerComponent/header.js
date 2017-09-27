@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import logo from './logotype.svg';
 import Connexion from '../../components/pages/connexion';
@@ -18,9 +17,12 @@ class Header extends Component {
           <div>
             <Link to={'/'}><img src={logo} className="App-logo" alt="logo" /></Link>
           </div>
+          <div className="search-bar">
+            <input id="search" name="search" type="text" placeholder="Rechercher"/>
+          </div>
           <div>
-            <Link to={'/inscription'}><button className="btn">Inscription</button></Link>
-            <Link to={'/connexion'}><button className="btn">Connexion</button></Link>
+            <Link to={'/inscription'}><button className="btn-register">Inscription</button></Link>
+            <Link to={'/connexion'}><button className="btn-login">Connexion</button></Link>
           </div>
           </header>
           <Switch>
@@ -36,3 +38,4 @@ class Header extends Component {
 }
 
 export default Header;
+

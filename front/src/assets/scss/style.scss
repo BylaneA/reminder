@@ -2,6 +2,7 @@
 $blackColor: #333;
 $redColor: #F55C54;
 $whiteColor: #F5F5F5;
+$greyColor: #BDBDBD;
 
 /*------------ Fonts-------------- */
 @font-face {
@@ -18,15 +19,11 @@ $principalFont: 'Aldrich', sans-serif;
 
 h1 {
 	font-family: $principalFont;
-	margin-top: 25px;
-	margin-bottom: 30px;
+	margin-top: 2em;
+	margin-bottom: 1em;
 	color :$redColor;
 	text-align: center;
 	font-size: 24px;
-}
-
-body {
-	margin: 10px;
 }
 
 ul {
@@ -46,13 +43,12 @@ header {
 	font-family: $principalFont;
 	font-size: 20px;
 	width:100%;
-	max-height: 50px;
 }
 
 header img {
-	max-width: 200px;
-	margin-top: 10px;
-	margin-left: 10px;
+	max-width: 9em;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
 }
 
 header a {
@@ -60,28 +56,24 @@ header a {
 	color: $redColor;
 }
 
-nav {
-	margin-left: 700px;
-}
-nav li {
-	margin-right: 20px;
+.search-bar input {
+	border: none;
+	margin-top: 1em;
 }
 /*------------ Main (Home page)-------------- */
-.Container-Home {
+.container-home {
 	width: 100%;
 	display: flex;
 }
 
-.Concept {
-	width: 483px;
+.concept {
+	width: 32em;
 	background-color: $blackColor;
-	padding: 10px;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: 200px;
+	padding: 1em;
+	margin: 4em 0em 4em 15em;
 }
 
-.Concept p {
+.concept p {
 	color: $whiteColor;
 	padding: 2em;
 }
@@ -103,52 +95,81 @@ nav li {
 }
 
 /*------------ Main (Inscription)-------------- */
-.Container-Inscription {
+.container-register {
 	width: 100%;
 	display: flex;
-}
-
-.Container-Inscription {
 	font-family: $principalFont;
 }
 
-.labels {
-	margin-left: 20px;
+.labels-register, .labels-login {
+	margin-left: 2em;
 	display: flex;
 	flex-direction: column;
-	width: 210px;
-}
-
-.inputs {
-	width: 400px
-}
-
-.formInscription {
-	display: flex;
-}
-
-label {
+	width: 14em;
 	color: $whiteColor;
-	font-size: 16px;
-	margin-top: 27px;
 }
 
-input {
+.inputs-login, .inputs-register {
+  width: 22em; }
+
+.form-register {
+  display: flex; }
+
+.labels-register  label {
+  margin-top: 1.7em; 
+}
+
+.labels-login label {
+  margin-top: 1.2em; 
+} 
+
+.inputs-register input, .inputs-login input {
 	border: none;
-	margin-top: 25px;
+	margin-top: 1.7em;
 }
 
+.btn-register, .btn-login {
+  font-family: "Aldrich", sans-serif;
+  background-color: $blackColor;
+  color: $redColor;
+  border: none;
+  padding: 1em; }
 
-button {
+.btn-register:hover, .btn-login:hover {
+	color: $whiteColor;
+	cursor: pointer;
+}
+
+.button-register, .button-login {
 	font-family: $principalFont;
-	background-color: $blackColor;
+	background-color: $redColor;
 	color: $whiteColor;
 	border: none;
 	padding: 1em;
+	margin-left:15em;
+	margin-top: 3em;
 }
-button:hover{
-	color: $redColor;
-	cursor: pointer;
+
+.link-forgot {
+  margin: 0.7em 0em 0em 14em;}
+
+.link-forgot a {
+  color: $greyColor; 
+}
+/*------------ Main Connexion-------------- */
+.container-connexion {
+	width: 100%;
+	display: flex;
+	font-family: $principalFont;
+}
+/*------------ Main ConnectedUser-------------- */
+.container-connectedUser {
+	color: $whiteColor;
+	width: 100%;
+	display: flex;
+	font-family: $principalFont;
+
+
 }
 
 /*------------ Footer-------------- */
@@ -157,83 +178,39 @@ footer {
 	color: $whiteColor;
 	width: 100%;
 	display: flex;
-	height: 70px;
 }
 
 .footer {
 	flex-direction: row;
-	border: 1px solid $redColor;
 }
 
 footer p {
 	text-align: center;
 	list-style: none;
 	flex-direction: row;
-	margin-top: -40px;
+	margin-top: -3em;
 }
 
 footer ul {
 	flex-direction: row;
-	margin-top: 15px;
 }
+
 footer i {
 	color: $blackColor;
-	justify-content: space-between;
 	background: $whiteColor;
 	border-radius: 50%;
 	border: 1px solid $whiteColor;
-	padding: 10px;
+	padding: 0.5em;
 }
 
 footer li {
-	margin-right: 20px;
+	margin-right: 1em;
 }
 .socialNetwork {
-	margin-left: 900px;
+	margin-left: 35em;
 	font-size: 24px;
 }
 
 footer a {
 	color: $whiteColor;
-}
-
-
-header a {
-	text-decoration: none;
-	color: $redColor;
-}
-
-/*------------ Footer-------------- */
-footer {
-	background-color: $blackColor;
-	height: 100px;
-	color: $whiteColor;
-	width: 100%;
-	display: flex;
-	height: 70px;
-}
-
-.footer {
-	flex-direction: row;
-	border: 1px solid $redColor;
-}
-
-footer p {
-	text-align: center;
-	list-style: none;
-	flex-direction: row;
-	margin-top: -40px;
-}
-
-footer ul {
-	flex-direction: row;
-	margin-top: 15px;
-}
-footer i {
-	color: $blackColor;
-	justify-content: space-between;
-	background: $whiteColor;
-	border-radius: 50%;
-	border: 1px solid $whiteColor;
-	padding: 10px;
 }
