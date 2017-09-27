@@ -16,7 +16,7 @@ class Footer extends Component {
       			<li><a href="https://www.twitter.com/"><i className="fa fa-twitter"></i></a></li>
       			<li><a href="https://www.plus.google.com/"><i className="fa fa-google-plus"></i></a></li>
       		</ul>
-          <p><a href="#">Mentions légales</a></p>
+          <p><a href="/">Mentions légales</a></p>
         </div>
       </footer>
         
