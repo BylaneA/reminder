@@ -3,6 +3,9 @@ $blackColor: #333;
 $redColor: #F55C54;
 $whiteColor: #F5F5F5;
 $greyColor: #E0E0E0;
+$greenPost: #6FCF97;
+$orangePost: #FAA65C;
+$redPost: #F46A6A;
 
 /*------------ Fonts-------------- */
 @font-face {
@@ -143,7 +146,7 @@ header a {
 	cursor: pointer;
 }
 
-.button-register, .button-login {
+.button-register, .button-login, .btn-delete-post, .btn-create-post {
 	font-family: $principalFont;
 	background-color: $redColor;
 	color: $whiteColor;
@@ -213,6 +216,32 @@ header a {
 	border: none;
 }
 
+.green-importance, .orange-importance, .red-importance {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 12.5px 28px 12.5px;
+}
+
+.green-importance {
+	border-color: transparent transparent $greenPost transparent;
+}
+
+.orange-importance {
+	border-color: transparent transparent $orangePost transparent;
+}
+
+.red-importance {
+	border-color: transparent transparent $redPost transparent;
+}
+
+.triangles-importance {
+	display: flex;
+}
+
+.buttons-post {
+	display: flex;
+}
 /*------------ Footer-------------- */
 footer {
 	background-color: $blackColor;

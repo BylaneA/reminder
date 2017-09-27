@@ -117,7 +117,7 @@ header a {
   color: #F5F5F5;
   cursor: pointer; }
 
-.button-register, .button-login {
+.button-register, .button-login, .btn-delete-post, .btn-create-post {
   font-family: "Aldrich", sans-serif;
   background-color: #F55C54;
   color: #F5F5F5;
@@ -177,6 +177,27 @@ header a {
 .inputs-addPost textarea {
   margin-top: 1.2em;
   border: none; }
+
+.green-importance, .orange-importance, .red-importance {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 12.5px 28px 12.5px; }
+
+.green-importance {
+  border-color: transparent transparent #6FCF97 transparent; }
+
+.orange-importance {
+  border-color: transparent transparent #FAA65C transparent; }
+
+.red-importance {
+  border-color: transparent transparent #F46A6A transparent; }
+
+.triangles-importance {
+  display: flex; }
+
+.buttons-post {
+  display: flex; }
 
 /*------------ Footer-------------- */
 footer {
