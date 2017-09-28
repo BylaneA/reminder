@@ -17,8 +17,8 @@ class Dashboard extends Component {
       	</div>
 
 		<div className="triangles">
-			<div className="redTriangle">
-			</div>
+			<div className="redTriangle"></div>
+      <div className="blackTriangle"></div>
         </div>
 
       </div>
