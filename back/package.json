@@ -16,7 +16,7 @@
     "passport": "*",
     "passport-jwt": "*",
     "passport-local": "*",
-    "bcrypt": "*",
+    "bcryptjs": "*",
     "jsonwebtoken": "*",
     "joi": "*"
   },
