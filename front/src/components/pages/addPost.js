@@ -33,16 +33,15 @@ class AddPost extends Component {
           </div>
         </div>
         
-    </div>
-    <div className="buttons-post">
-      <button className="btn-delete-post">ANNULER</button>
-      <button className="btn-create-post">CREER</button>
-    </div>
-  </div>
+        </div>
+        <div className="buttons-post">
+          <button className="btn-delete-post">ANNULER</button>
+          <button className="btn-create-post">CREER</button>
+        </div>
+      </div>
 
-		<div className="triangles">
-			<div className="redTriangle">
-			</div>
+    		<div className="triangles">
+    			<div className="redTriangle"></div>
         </div>
 
       </div>
