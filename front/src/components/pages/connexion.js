@@ -13,6 +13,7 @@ class Connexion extends Component {
 
       	<div className="triangles">
 	      <div className="redTriangle"></div>
+	      <div className="blackTriangle"></div>
 	     </div>
       	<div className="concept">
 			<h1>Connexion</h1>

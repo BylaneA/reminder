@@ -53,7 +53,8 @@ header a {
 /*------------ Main (Home page)-------------- */
 .container-home {
   width: 100%;
-  display: flex; }
+  display: flex;
+  height: 37em; }
 
 .concept {
   width: 28em;
@@ -88,7 +89,8 @@ header a {
 .container-register, .container-connexion {
   width: 100%;
   display: flex;
-  font-family: "Aldrich", sans-serif; }
+  font-family: "Aldrich", sans-serif;
+  height: 37em; }
 
 .labels-register, .labels-login, .labels-addPost {
   margin-left: 2em;
@@ -153,7 +155,8 @@ header a {
 .mainDashboard {
   width: 100%;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  height: 37em; }
 
 .post-it {
   width: 17em;

@@ -73,6 +73,7 @@ header a {
 .container-home {
 	width: 100%;
 	display: flex;
+	height: 37em;
 }
 
 .concept {
@@ -113,6 +114,7 @@ header a {
 	width: 100%;
 	display: flex;
 	font-family: $principalFont;
+	height: 37em;
 }
 
 .labels-register, .labels-login, .labels-addPost {
@@ -191,6 +193,7 @@ header a {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	height: 37em;
 }
 
 .post-it {
