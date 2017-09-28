@@ -10,6 +10,13 @@ class Dashboard2 extends Component {
     return (
 
       <div className="mainDashboard">
+
+        <div className="post-it1">
+            <p className="msg-date">27/09/2017</p>
+            <p className="msg-title">TO DO LIST</p>
+            <p className="msg-text">Blah blah blah</p>
+        </div>
+
       	<div className="post-it">
       		<Link to="/addPost">
       			<i className="fa fa-plus"></i>

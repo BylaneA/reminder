@@ -7,6 +7,7 @@ $darkGreyColor: #BDBDBD;
 $greenPost: #6FCF97;
 $orangePost: #FAA65C;
 $redPost: #F46A6A;
+$dateColor: #828282;
 
 /*------------ Fonts-------------- */
 @font-face {
@@ -19,7 +20,24 @@ $redPost: #F46A6A;
 	src: url("../fonts/Roboto/Roboto-Medium.ttf");
 }
 
+@font-face {
+	font-family: 'Roboto-Italic';
+	src: url("../fonts/Roboto/Roboto-Italic.ttf");
+}
+
+@font-face {
+	font-family: 'Acme';
+	src: url("../fonts/Acme/Acme-Regular.ttf");
+}
+
+@font-face {
+	font-family: 'ABeeZee';
+	src: url("../fonts/ABeeZee/ABeeZee-Regular.ttf");
+}
+
 $principalFont: 'Aldrich', sans-serif;
+$postTitleFont: 'ABeeZee', sans-serif;
+$postMsgFont: 'Acme', sans-serif;
 
 h1 {
 	font-family: $principalFont;
@@ -291,6 +309,32 @@ header a {
 .btn-delete-post, .btn-create-post {
   margin-top: 0.5em;}
 
+/*------------ Main Dashboard2-------------- */
+.post-it1 {
+	width: 17em;
+	height: 14em;
+	background-color: $greenPost;
+	margin-top: 2em;
+	margin-left: 2em;
+	/*line-height: 14em;*/
+	text-align: center;
+	/*display: flex;*/
+}
+
+.msg-date {
+	margin-top: 7px;
+	margin-left: 190px;
+	font-size: 13px;
+	color: grey;
+}
+
+.msg-title{
+	margin-top: -4px;
+	margin-left: 10px;
+	font-size: 20px;
+	color: $whiteColor;
+}
+
 /*------------ Footer-------------- */
 footer {
 	background-color: $blackColor;
@@ -298,7 +342,7 @@ footer {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	height: 4.6em;
+	height: 4.7em;
 	margin-top:-1.2em;
 }
 

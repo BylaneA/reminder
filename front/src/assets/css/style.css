@@ -8,6 +8,18 @@
   font-family: 'Roboto';
   src: url("../fonts/Roboto/Roboto-Medium.ttf"); }
 
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url("../fonts/Roboto/Roboto-Italic.ttf"); }
+
+@font-face {
+  font-family: 'Acme';
+  src: url("../fonts/Acme/Acme-Regular.ttf"); }
+
+@font-face {
+  font-family: 'ABeeZee';
+  src: url("../fonts/ABeeZee/ABeeZee-Regular.ttf"); }
+
 h1 {
   font-family: "Aldrich", sans-serif;
   margin-top: 2em;
@@ -239,6 +251,29 @@ header a {
 .btn-delete-post, .btn-create-post {
   margin-top: 0.5em; }
 
+/*------------ Main Dashboard2-------------- */
+.post-it1 {
+  width: 17em;
+  height: 14em;
+  background-color: #6FCF97;
+  margin-top: 2em;
+  margin-left: 2em;
+  /*line-height: 14em;*/
+  text-align: center;
+  /*display: flex;*/ }
+
+.msg-date {
+  margin-top: 7px;
+  margin-left: 190px;
+  font-size: 13px;
+  color: grey; }
+
+.msg-title {
+  margin-top: -4px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #F5F5F5; }
+
 /*------------ Footer-------------- */
 footer {
   background-color: #333;
@@ -246,7 +281,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 4.6em;
+  height: 4.7em;
   margin-top: -1.2em; }
 
 footer p {
