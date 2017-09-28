@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Dashboard from '../../components/pages/dashboard';
+
+//Router
+import { Route, Link } from 'react-router-dom';
 
 class Inscription extends Component {
   render() {
@@ -23,10 +27,12 @@ class Inscription extends Component {
               <input type="text" name="password" id="password"/>
             </div>
           </div>
-
+          <Link to="/dashboard">
           <button className="button-register">S'inscrire</button>
-      		
+      		</Link>
           
+
+          <Route path='/dashboard' component={Dashboard} />
 
       	</div>
 
