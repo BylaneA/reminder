@@ -56,10 +56,10 @@ header a {
   display: flex; }
 
 .concept {
-  width: 32em;
+  width: 28em;
   background-color: #333;
   padding: 1em;
-  margin: 3em 0em 3em 15em; }
+  margin: 3em 0em 6em 1em; }
 
 .concept-h1 {
   margin-top: 1em; }
@@ -72,15 +72,17 @@ header a {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 550px 229px 0 229px;
+  border-width: 575px 229px 0 229px;
   border-color: #F55C54 transparent transparent transparent; }
 
 .blackTriangle {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 267.5px 595px 267.5px;
-  border-color: transparent transparent #333 transparent; }
+  border-width: 0 229px 575px 229px;
+  border-color: transparent transparent #333 transparent;
+  margin-top: -36em;
+  margin-left: 15.5em; }
 
 /*------------ Main Inscription et Connexion-------------- */
 .container-register, .container-connexion {
@@ -241,7 +243,8 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 4.6em; }
+  height: 4.6em;
+  margin-top: -1.2em; }
 
 footer p {
   text-align: center;

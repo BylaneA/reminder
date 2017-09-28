@@ -5,7 +5,8 @@ class Homepage extends Component {
     return (
       <div className="container-home">
       	<div className="triangles">
-	      <div className="redTriangle"></div>
+  	      <div className="redTriangle"></div>
+          <div className="blackTriangle"></div>
 	     </div>
       	<div className="concept">
       		<h1 className="concept-h1">Notre concept</h1>
