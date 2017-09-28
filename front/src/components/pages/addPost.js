@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Dashboard2 from '../../components/pages/dashboard2';
+//Router
+import { Link } from 'react-router-dom';
 
 //Router
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -36,7 +39,9 @@ class AddPost extends Component {
         </div>
         <div className="buttons-post">
           <button className="btn-delete-post">ANNULER</button>
+	       <Link to="/dashboard2">
           <button className="btn-create-post">CREER</button>
+         </Link>
         </div>
       </div>
 
