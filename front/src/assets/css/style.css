@@ -55,7 +55,10 @@ header a {
   width: 32em;
   background-color: #333;
   padding: 1em;
-  margin: 4em 0em 4em 15em; }
+  margin: 3em 0em 3em 15em; }
+
+.concept-h1 {
+  margin-top: 1em; }
 
 .concept p {
   color: #F5F5F5;
@@ -122,7 +125,9 @@ header a {
   background-color: #F55C54;
   color: #F5F5F5;
   border: none;
-  padding: 1em;
+  padding: 1em; }
+
+.button-register, .button-login {
   margin-left: 15em;
   margin-top: 3em; }
 
@@ -157,32 +162,46 @@ header a {
 
 /*------------ Main AddPost-------------- */
 .contain-addPost {
-  width: 24em;
-  height: 20em;
+  width: 28em;
+  height: 25em;
   background-color: #E0E0E0;
-  margin-top: 5em; }
+  margin-top: 4em; }
+
+.contain-addPost h1 {
+  margin-top: 1em; }
 
 .labels-addPost {
   color: #333;
   font-family: "Aldrich", sans-serif; }
 
 .labels-addPost label {
-  margin-top: 1em; }
+  margin-top: 0.8em;
+  width: 7em; }
+
+.labels-addPost label:nth-child(3n) {
+  margin-top: 9.8em; }
 
 .inputs-addPost input {
-  margin-top: 1em;
+  margin-top: 0.8em;
   border: none;
-  width: 12.6em; }
+  width: 14.3em;
+  margin-left: -1em; }
 
 .inputs-addPost textarea {
-  margin-top: 1.2em;
+  margin-top: 1em;
+  margin-left: -1em;
   border: none; }
 
 .green-importance, .orange-importance, .red-importance {
   width: 0;
   height: 0;
-  border-style: solid;
-  border-width: 0 12.5px 28px 12.5px; }
+  background-color: #F5F5F5;
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
+  border-bottom: 40px solid #000;
+  position: relative;
+  margin: 0.5em;
+  border-radius: 50px; }
 
 .green-importance {
   border-color: transparent transparent #6FCF97 transparent; }
@@ -194,10 +213,16 @@ header a {
   border-color: transparent transparent #F46A6A transparent; }
 
 .triangles-importance {
-  display: flex; }
+  display: flex;
+  margin-left: -1em; }
 
 .buttons-post {
-  display: flex; }
+  display: flex;
+  margin: auto;
+  justify-content: space-around; }
+
+.btn-delete-post, .btn-create-post {
+  margin-top: 0.5em; }
 
 /*------------ Footer-------------- */
 footer {

@@ -24,7 +24,7 @@ class AddPost extends Component {
 
         <div className="inputs-addPost">
           <input type="text" name="post-title" id="post-title"/>
-          <textarea type="text" name="post-message" id="post-message" rows="10" cols="25" placeholder="Tapez votre message ici">
+          <textarea type="text" name="post-message" id="post-message" rows="10" cols="28" placeholder="Tapez votre message ici">
           </textarea>
           <div className="triangles-importance">
             <div className="green-importance"></div>
