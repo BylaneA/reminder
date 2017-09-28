@@ -137,10 +137,9 @@ header a {
 	margin-top: 1.7em;
 }
 
-.btn-register, .btn-login {
+.btn-register, .btn-login, .btn-dashboard, .btn-addpost {
   font-family: "Aldrich", sans-serif;
   background-color: $blackColor;
-  color: $redColor;
   border: none;
   padding: 1em; }
 
@@ -148,6 +147,16 @@ header a {
 	color: $whiteColor;
 	cursor: pointer;
 }
+
+.btn-register, .btn-login {
+	color: $redColor;
+}
+
+.btn-dashboard, .btn-addpost {
+	color: $blackColor;
+	font-size: 4px;
+}
+
 
 .button-register, .button-login, .btn-delete-post, .btn-create-post {
 	font-family: $principalFont;

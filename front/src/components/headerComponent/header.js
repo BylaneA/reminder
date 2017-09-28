@@ -26,8 +26,8 @@ class Header extends Component {
           <div>
             <Link to={'/inscription'}><button className="btn-register">Inscription</button></Link>
             <Link to={'/connexion'}><button className="btn-login">Connexion</button></Link>
-            <Link to={'/dashboard'}><button className="btn-login">Dashboard</button></Link>
-            <Link to={'/addPost'}><button className="btn-login">AddPost</button></Link>
+            <Link to={'/dashboard'}><button className="btn-dashboard">Dashboard</button></Link>
+            <Link to={'/addPost'}><button className="btn-addpost">AddPost</button></Link>
           </div>
           </header>
           <Switch>

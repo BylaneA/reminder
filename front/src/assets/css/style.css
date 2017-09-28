@@ -109,16 +109,22 @@ header a {
   border: none;
   margin-top: 1.7em; }
 
-.btn-register, .btn-login {
+.btn-register, .btn-login, .btn-dashboard, .btn-addpost {
   font-family: "Aldrich", sans-serif;
   background-color: #333;
-  color: #F55C54;
   border: none;
   padding: 1em; }
 
 .btn-register:hover, .btn-login:hover {
   color: #F5F5F5;
   cursor: pointer; }
+
+.btn-register, .btn-login {
+  color: #F55C54; }
+
+.btn-dashboard, .btn-addpost {
+  color: #333;
+  font-size: 4px; }
 
 .button-register, .button-login, .btn-delete-post, .btn-create-post {
   font-family: "Aldrich", sans-serif;
