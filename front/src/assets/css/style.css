@@ -23,6 +23,10 @@ ul {
 li {
   flex-direction: row; }
 
+/*------------ Body, HTML-------------- */
+html, body {
+  margin: 0; }
+
 /*------------ Header-------------- */
 header {
   display: flex;
@@ -68,7 +72,7 @@ header a {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 509px 229px 0 229px;
+  border-width: 550px 229px 0 229px;
   border-color: #F55C54 transparent transparent transparent; }
 
 .blackTriangle {
@@ -235,16 +239,15 @@ footer {
   background-color: #333;
   color: #F5F5F5;
   width: 100%;
-  display: flex; }
+  display: flex;
+  justify-content: space-between;
+  height: 4.6em; }
 
 footer p {
   text-align: center;
   list-style: none;
-  flex-direction: row;
-  margin-top: -3em; }
-
-footer ul {
-  flex-direction: row; }
+  color: #BDBDBD;
+  padding-left: 1em; }
 
 footer i {
   color: #333;
@@ -258,12 +261,14 @@ footer i:hover {
   cursor: pointer;
   background-color: #F55C54; }
 
+footer ul {
+  margin-top: 0.3em; }
+
 footer li {
   margin-right: 1em; }
 
 .socialNetwork {
-  margin-left: 35em;
   font-size: 24px; }
 
 footer a {
-  color: #F5F5F5; }
+  color: #BDBDBD; }

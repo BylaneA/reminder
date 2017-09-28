@@ -3,6 +3,7 @@ $blackColor: #333;
 $redColor: #F55C54;
 $whiteColor: #F5F5F5;
 $greyColor: #E0E0E0;
+$darkGreyColor: #BDBDBD;
 $greenPost: #6FCF97;
 $orangePost: #FAA65C;
 $redPost: #F46A6A;
@@ -36,6 +37,11 @@ ul {
 
 li {
 	flex-direction: row;
+}
+
+/*------------ Body, HTML-------------- */
+html, body {
+	margin: 0;
 }
 /*------------ Header-------------- */
 header {
@@ -88,7 +94,7 @@ header a {
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 509px 229px 0 229px;
+	border-width: 550px 229px 0 229px;
 	border-color: $redColor transparent transparent transparent;
 }
 
@@ -286,18 +292,17 @@ footer {
 	color: $whiteColor;
 	width: 100%;
 	display: flex;
+	justify-content: space-between;
+	height: 4.6em;
 }
 
 footer p {
 	text-align: center;
 	list-style: none;
-	flex-direction: row;
-	margin-top: -3em;
+	color: $darkGreyColor;
+	padding-left: 1em;
 }
 
-footer ul {
-	flex-direction: row;
-}
 
 footer i {
 	color: $blackColor;
@@ -313,14 +318,17 @@ footer i:hover {
 	background-color: $redColor;
 }
 
+footer ul {
+	margin-top: 0.3em;
+}
+
 footer li {
 	margin-right: 1em;
 }
 .socialNetwork {
-	margin-left: 35em;
 	font-size: 24px;
 }
 
 footer a {
-	color: $whiteColor;
+	color: $darkGreyColor;
 }
