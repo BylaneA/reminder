@@ -23,9 +23,9 @@ module.exports = {
 			email : joi.string().email().required(),
 			password : joi.string().min(8).required()
 		}),
-		connectionSchema : {
+		connectionSchema : ({
 			email : joi.string().required(),
 			password : joi.string().min(8).required()
-		}
+		})
 	}
 }
